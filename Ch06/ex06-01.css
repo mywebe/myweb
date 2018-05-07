@@ -161,3 +161,11 @@ body {
 .floatright {
 	float: right;
 }
+h1 {
+	font-size: 20px;
+	color: #000;
+	background-image: url(images/h1_bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-bottom: 25px;
+}
