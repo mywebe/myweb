@@ -45,13 +45,13 @@ var Oversea = new Spry.Data.HTMLDataSet("ex12-02.html", "tourOversea", {firstRow
             <img src="images/title1.gif" width="599" height="33" />
             <table class="tourTable">
               <tr>
-              <td class="list"><div spry:region="Taiwan">
+              <td class="list"><div class="tourListTable" spry:region="Taiwan">
                 <table>
                   <tr>
                     <th spry:sort="name"><img src="images/list_title.gif" width="143" height="34" /></th>
                   </tr>
                   <tr spry:repeat="Taiwan" spry:setrow="Taiwan">
-                    <td>{name}</td>
+                    <td><a href="javascript:;">{name}</a></td>
                   </tr>
                 </table>
               </div></td>
@@ -87,13 +87,13 @@ var Oversea = new Spry.Data.HTMLDataSet("ex12-02.html", "tourOversea", {firstRow
            <img src="images/title2.gif" width="599" height="33" />
            <table class="tourTable">
              <tr>
-              <td class="list"><div spry:region="Oversea">
+              <td class="list"><div class="tourListTable" spry:region="Oversea">
                 <table>
                   <tr>
                     <th spry:sort="name"><img src="images/list_title.gif" width="143" height="34" /></th>
                   </tr>
                   <tr spry:repeat="Oversea" spry:setrow="Oversea">
-                    <td>{name}</td>
+                    <td><a href="javascript:;">{name}</a></td>
                   </tr>
                 </table>
               </div></td>
